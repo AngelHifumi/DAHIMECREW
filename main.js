@@ -4,7 +4,6 @@
 const Discord = require("discord.js");
 const osu = require("node-osu");
 const client = new Discord.Client();
-client.login("NTE3Mzg4Mzk3Mzg0NDMzNjc0.W_7Nfg.n95IusaqYnxqbmxVCaKH6nSDZdk");
 
 client.on("ready", () => {
 	console.log("sup dog");
